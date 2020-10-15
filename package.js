@@ -1,6 +1,6 @@
 Package.describe({
   name: 'symptomatic:fhir-uscore',
-  version: '0.4.6',
+  version: '0.4.8',
   summary: 'Covid19 - Reporting - SANER (Situational Awareness of Novel Epidemic Response',
   git: 'https://github.com/symptomatic/fhir-uscore',
   documentation: 'README.md'
@@ -20,7 +20,11 @@ Package.onUse(function(api) {
   api.use('random');
   api.use('fourseven:scss');
 
-  api.use('clinical:hl7-fhir-data-infrastructure@6.4.17');
+  api.use('clinical:hl7-fhir-data-infrastructure@6.5.2');
+
+  api.addFiles('lib/UsCoreMethods.js', 'server');
+
+  api.export('UsCoreMethods');
   
   api.mainModule('index.jsx', 'client');
 });
