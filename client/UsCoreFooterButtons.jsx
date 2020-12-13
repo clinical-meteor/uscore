@@ -96,12 +96,12 @@ export function ValueSetsButtons(props){
   }
   return (
     <div>
-      <Button className={buttonClasses.west_button} onClick={ initializeSampleValueSets.bind(this) } >
+      {/* <Button className={buttonClasses.west_button} onClick={ initializeSampleValueSets.bind(this) } >
         Initialize Sample ValueSets
-      </Button>
-      <Button className={buttonClasses.west_button} onClick={ clearValueSets.bind(this) } >
+      </Button> */}
+      {/* <Button className={buttonClasses.west_button} onClick={ clearValueSets.bind(this) } >
         Clear
-      </Button>
+      </Button> */}
       <Button className={buttonClasses.west_button} onClick={ toggleLayout.bind(this) } >
         Toggle Layout Screen
       </Button>
