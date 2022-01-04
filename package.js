@@ -18,9 +18,9 @@ Package.onUse(function(api) {
   api.use('http');
   api.use('ejson');
   api.use('random');
-  api.use('fourseven:scss');
+  api.use('fourseven:scss@4.15.0');
 
-  api.use('clinical:hl7-fhir-data-infrastructure');
+  api.use('clinical:hl7-fhir-data-infrastructure@6.20.0');
 
   api.addFiles('lib/UsCoreMethods.js', 'server');
   api.addFiles('server/methods.js', 'server');
