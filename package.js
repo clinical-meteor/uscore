@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'symptomatic:fhir-uscore',
+  name: 'clinical:uscore',
   version: '0.4.10',
   summary: 'Covid19 - Reporting - SANER (Situational Awareness of Novel Epidemic Response',
-  git: 'https://github.com/symptomatic/fhir-uscore',
+  git: 'https://github.com/clinical-meteor/uscore',
   documentation: 'README.md'
 });
 
@@ -11,8 +11,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4');
   
   api.use('meteor-base@1.4.0');
-  api.use('ecmascript@0.13.0');
-  api.use('react-meteor-data@2.1.2');
+  api.use('ecmascript@0.16.0');
+  api.use('react-meteor-data@2.4.0');
   api.use('session');
   api.use('mongo');
   api.use('http');
