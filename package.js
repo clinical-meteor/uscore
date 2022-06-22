@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:uscore',
-  version: '0.4.10',
+  version: '0.4.11',
   summary: 'Covid19 - Reporting - SANER (Situational Awareness of Novel Epidemic Response',
   git: 'https://github.com/clinical-meteor/uscore',
   documentation: 'README.md'
