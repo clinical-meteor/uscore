@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.use('random');
   api.use('fourseven:scss@4.15.0');
 
-  api.use('clinical:hl7-fhir-data-infrastructure');
+  api.use('clinical:hl7-fhir-data-infrastructure@6.24.2');
 
   api.addFiles('lib/UsCoreMethods.js', 'server');
   api.addFiles('server/methods.js', 'server');
