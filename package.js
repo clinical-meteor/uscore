@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:uscore',
-  version: '0.4.12',
+  version: '0.4.13',
   summary: 'Covid19 - Reporting - SANER (Situational Awareness of Novel Epidemic Response',
   git: 'https://github.com/clinical-meteor/uscore',
   documentation: 'README.md'
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.use('random');
   api.use('fourseven:scss@4.15.0');
 
-  api.use('clinical:hl7-fhir-data-infrastructure@6.24.2');
+  api.use('clinical:hl7-fhir-data-infrastructure@6.28.2');
 
   api.addFiles('lib/UsCoreMethods.js', 'server');
   api.addFiles('server/methods.js', 'server');
